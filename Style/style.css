@@ -1,0 +1,431 @@
+* {
+    font-family: Oswald, sans-serif;
+}
+
+
+/*****HEADER**********/
+header {
+    background-color: #29A7D9;
+}
+
+#logo {
+    height: 74px;
+    margin-right: 10px;
+}
+
+#logo_text {
+    font-size: 25px;
+}
+
+nav ul li a {
+    font-size: 16px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+nav ul li a:hover {
+    border: 1px solid white;
+    transition: 1s;
+}
+
+
+/******Seccion Inicio*********/
+
+
+.Seccion-inicio {
+    background-color: #E4F2F1;
+    color: rgb(0, 0, 0);
+}
+
+.ps-10 {
+    padding-left: 10%;
+
+}
+
+.Seccion-inicio h1 {
+    padding: 25px;
+    font-size: 55px;
+    padding-bottom: 10px;
+
+}
+
+.nombre-club {
+
+    padding-bottom: 25px;
+    font-size: 70px;
+    margin-top: 10px;
+}
+
+.inicio p {
+    padding: 0 0 10px 0;
+}
+
+.inicio-img img {
+    filter: drop-shadow(-8px 20px 20px black);
+}
+
+.pbtn-1 {
+    padding: 12px 50px;
+    background-color: #024059;
+    color: #ffffff;
+}
+
+/**********Miembros*******/
+.Seccion-miembros {
+    background-color: #E4F2F1;
+    color: rgb(0, 0, 0);
+
+}
+
+.Seccion-miembros h1 {
+    padding: 25px;
+    font-size: 50px;
+    padding-bottom: 10px;
+
+}
+
+.pbtn-2 {
+    padding: 12px 30px;
+    background-color: #024059;
+    color: #ffffff;
+}
+
+.align-btnn {
+    text-align: right;
+}
+
+.btnActivos {
+    margin-right: 20px;
+}
+
+.lista-h2 {
+    margin: 20px;
+}
+
+.table {
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.15);
+}
+
+.table thead tr {
+    background-color: #418FBF;
+    color: #ffffff;
+}
+
+.table tbody tr:last-of-type {
+    border-bottom: 2px solid #418FBF;
+}
+
+.table tbody tr:hover {
+    background-color: #908E8F;
+    color: #ffffff;
+}
+
+
+
+/********Activos*********/
+
+.Seccion-activos {
+    background-color: #E4F2F1;
+    color: rgb(0, 0, 0);
+
+}
+
+.Seccion-activos h1 {
+    padding: 25px;
+    font-size: 50px;
+    padding-bottom: 10px;
+
+}
+
+.carousel-inner {
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+
+
+/********Nosostros*********/
+
+.Seccion-nosotros {
+    background-color: #E4F2F1;
+    color: rgb(0, 0, 0);
+
+}
+
+.Seccion-nosotros h1 {
+    padding: 25px;
+    font-size: 50px;
+    padding-bottom: 10px;
+
+}
+
+.carousel-inner {
+    height: 440px;
+}
+
+.carousel-item img {
+    height: 30em;
+}
+
+.img-nosotros-logo {
+    width: 150px;
+}
+
+.titulo-h3 {
+    font-size: 35px;
+}
+
+.parrafo1-nosotros {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+/********Eventos*********/
+
+.Seccion-eventos {
+    background-color: #E4F2F1;
+    color: rgb(0, 0, 0);
+
+}
+
+.Seccion-eventos h1 {
+    padding: 25px;
+    font-size: 50px;
+    padding-bottom: 10px;
+
+}
+
+.contenedor-eventos {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+/**targetas eventos**/
+
+.contenedor-targetas img {
+    height: 150px;
+    width: 100%;
+}
+
+.contenedor-card{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.espacio{
+    margin-bottom: 25px;
+}
+.card {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-text {
+    height: 80px;
+}
+
+
+
+
+/*****Cantactos******/
+
+.Seccion-contactos {
+    background-color: #E4F2F1;
+    color: rgb(0, 0, 0);
+
+}
+
+.Seccion-contactos h1 {
+    padding: 25px;
+    font-size: 50px;
+    padding-bottom: 10px;
+
+}
+
+
+
+.info {
+    padding: 0 5%;
+}
+
+.col img {
+    margin-top: 50px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.info .col {
+    align-items: center
+}
+
+.info .col .icono {
+    color: #009688;
+    margin-right: 10px
+}
+
+.info .col p {
+    color: rgb(0, 0, 0);
+    padding-top: 15px;
+}
+
+
+.info .redes-s a {
+    color: #024059;
+    font-size: 40px;
+}
+
+.info .redes-s a:hover {
+    color: #801303;
+}
+
+
+
+
+.contenedor-contactos {
+    background-color: #ffffff;
+}
+
+.marg-1 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 15px;
+}
+
+
+.titulo-mapa {
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+/**Footer*/
+footer {
+    background-color: #024059;
+
+}
+
+.footer {
+    border-bottom: 1px solid #ccc;
+}
+
+.logo-footer {
+    margin-top: 30px;
+}
+
+.enlace-footer {
+    text-decoration: none;
+}
+
+.redes-sociales a {
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.Titulo-final {
+    font-size: 14px;
+    margin: 20px 0 0 0;
+    color: #ffffff;
+}
+
+
+/**********Tablets******/
+@media(max-width:995px) {
+
+    .align-btnn {
+        text-align: start;
+        margin: 25px;
+    }
+
+    .lista-h2 {
+        margin-top: 0;
+    }
+
+    .listaAr-h2 {
+        margin-top: 20px;
+    }
+
+    /**Nosotros**/
+    .carousel-item img {
+        height: 25em;
+    }
+
+}
+
+/**********Celulares******/
+
+@media(max-width:640px) {
+
+    /*********Inicio********/
+    .Seccion-inicio h1 {
+        font-size: 35px;
+    }
+
+    .nombre-club {
+        font-size: 45px;
+
+    }
+
+    .inicio p {
+        padding: 0 10% 10px 0;
+    }
+
+    .inicio-img {
+        padding-top: 40px;
+    }
+
+
+    /*********Miembros********/
+    .Seccion-miembros h1 {
+        font-size: 35px;
+    }
+
+    .btnActivos {
+        margin-right: 0px;
+    }
+
+    .align-btnn {
+        text-align: start;
+        margin: 25px;
+    }
+
+    /*******Archivos*******/
+    .Seccion-archivos h1 {
+        font-size: 35px;
+    }
+
+    /*******Activos*******/
+    .Seccion-activos h1 {
+        font-size: 35px;
+    }
+
+    /*******Nosotros******/
+    .Seccion-nosotros h1 {
+        font-size: 35px;
+    }
+
+    .carousel-item img {
+        height: 16em;
+    }
+
+    /*******Contáctos******/
+    .Seccion-contactos h1 {
+        font-size: 35px;
+    }
+
+    /**Activos*/
+    .carousel-inner {
+        height: 250px;
+        
+    }
+
+}
